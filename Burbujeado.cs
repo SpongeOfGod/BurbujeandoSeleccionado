@@ -27,7 +27,7 @@ namespace ConsoleApp1
 
                         if(number1 > number2) 
                         {
-                            Console.WriteLine($"\n'{numeros[i]}' (Posición {i} en Array) es mayor a '{numeros[i + 1]}' (Posición {i+1} en Array)...\nOrdenando...");
+                            Console.WriteLine($"'{numeros[i]}' (Posición {i} en Array) es mayor a '{numeros[i + 1]}' (Posición {i+1} en Array)...\nOrdenando...");
                             (numeros[i], numeros[i + 1]) = (numeros[i + 1], numeros[i]);
                         }
                     }
